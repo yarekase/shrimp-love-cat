@@ -1,3 +1,4 @@
+from datetime import datetime
 import os
 from flask import Flask  #從flask套件，放進Flask這個類別
 web=Flask(__name__) # __name__代表目前執行的模組
