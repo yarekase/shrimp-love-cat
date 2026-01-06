@@ -5,7 +5,7 @@ web=Flask(__name__) # __name__代表目前執行的模組
 @web.route("/") #函式的裝飾(decorator):以函式為基礎，提供附加的功能
 # 例如這個是建立路由器，當連接到網址的最底層(/後方無東西)，執行下面的函式
 def home():
-	return "HI HAHAHA"
+	return "啾啾寶貝，蝦蝦愛你"
 	
 if __name__ == "__main__":
 	port = int(os.environ.get("PORT",5000))
